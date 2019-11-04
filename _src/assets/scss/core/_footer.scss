@@ -1,3 +1,36 @@
 .footer {
   border: teal 3px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.arrow {
+  border: tomato 3px solid;
+  width: 45px;
+  height: 45px;
+  &__link {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-self: center;
+  }
+}
+.menu {
+  border: greenyellow 3px solid;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pages-menu {
+  border: blueviolet 3px solid;
+  text-align: center;
+}
+.social {
+  border: royalblue 3px solid;
+  text-align: center;
+}
+.copyright {
+  border: black 3px solid;
+  text-align: center;
 }

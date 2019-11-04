@@ -1,0 +1,45 @@
+@mixin bigger_title {
+  font-size: $greater_font_size;
+  font-family: $title_font_family;
+  color: $light_color;
+  text-transform: uppercase;
+}
+
+@mixin bigger_title_subtitle {
+  font-size: $text_font_size;
+  font-family: $text_font_family;
+  color: $light_color;
+}
+
+@mixin big_title {
+  font-size: $big_font_size;
+  font-family: $title_font_family;
+  color: $text_color;
+  text-transform: capitalize;
+}
+
+@mixin special_title {
+  font-size: $smaller_font_size;
+  font-family: $text_font_family;
+  color: $special_font_color;
+  text-transform: capitalize;
+}
+
+@mixin article_text {
+  font-size: $big_text_font_size;
+  font-family: $text_font_family;
+  color: $light_text_color;
+}
+
+@mixin reasons_text {
+  font-size: $big_text_font_size;
+  font-family: $text_font_family;
+  color: $text_color;
+}
+
+@mixin footer_text {
+  font-size: $text_font_size;
+  font-family: $text_font_family;
+  color: $light_color;
+  text-transform: uppercase;
+}

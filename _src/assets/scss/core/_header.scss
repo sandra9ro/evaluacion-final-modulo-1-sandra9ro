@@ -1,3 +1,81 @@
 .header {
-  border: brown 3px solid;
+  // border: brown 3px solid;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
+
+  .ico-menu {
+    // border: black 3px solid;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 44px;
+    height: 44px;
+    background: #0271bc;
+
+    &__image {
+      // border: red solid 3px;
+      width: 16px;
+      height: 14px;
+    }
+  }
+
+  &__title {
+    // border: springgreen 10px solid;
+    width: 290px;
+    text-align: center;
+  }
+
+  &__title--big-title {
+    // border: rgb(2, 15, 189) solid 3px;
+    @include bigger_title;
+  }
+
+  &__title--subtitle {
+    // border: saddlebrown 3px solid;
+    @include bigger_title_subtitle;
+  }
+}
+.scroll-down-link {
+  // border: black 3px solid;
+  width: 45px;
+  height: 45px;
+  border-radius: 22.5px;
+  background: #fff;
+}
+.ico-scroll-down {
+  width: 20px;
+  height: 11.7px;
+}
+
+@media all and (min-width: 768px) {
+  .header__title {
+    width: 690px;
+  }
+  .header__title--big-title {
+    font-size: 80px;
+  }
+  .header__title--subtitle {
+    font-size: 24px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .header__title {
+    width: 730px;
+  }
+  .header__title--big-title {
+    font-size: 100px;
+  }
+  .header__title--subtitle {
+    font-size: 24px;
+  }
 }
