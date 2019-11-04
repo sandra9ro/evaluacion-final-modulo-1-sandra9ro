@@ -9,8 +9,8 @@
 (x) Limpiar
 () Hacer html:
 (x) Crear los contenedores
-() Poner semántica y clases (BEM)
-() Añadir imágenes
+(x) Poner semántica y clases (BEM)
+(x) Añadir imágenes
 () Hacer partials de html
 () Borrar los partials que no valen
 () Iniciar gulp si no estaba (debe haber algo escrito para ver cambios)
