@@ -5,7 +5,8 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-
+  background-image: url(../images/cover.jpg);
+  background-size: cover;
   &__title {
     border: springgreen 10px solid;
     width: 50%;
