@@ -2,13 +2,13 @@
 (x) Borrar carpetas node public y docs
 (x) npm install
 (x) npm start
-() Crear carpeta docs/, subirla y publicarla en github pages
-() Asegurar el repo: subir el commit y ver que está funcionando
+(x) Crear carpeta docs/, subirla y publicarla en github pages
+(x) Asegurar el repo: subir el commit y ver que está funcionando
 
-() Pintar la estructura de contenedores
-() Limpiar
+(x) Pintar la estructura de contenedores
+(x) Limpiar
 () Hacer html:
-() Crear los contenedores
+(x) Crear los contenedores
 () Poner semántica y clases (BEM)
 () Añadir imágenes
 () Hacer partials de html
