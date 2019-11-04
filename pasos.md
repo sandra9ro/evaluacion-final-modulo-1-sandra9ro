@@ -7,15 +7,15 @@
 
 (x) Pintar la estructura de contenedores
 (x) Limpiar
-() Hacer html:
+(x) Hacer html:
 (x) Crear los contenedores
 (x) Poner semántica y clases (BEM)
 (x) Añadir imágenes
-() Hacer partials de html
-() Borrar los partials que no valen
-() Iniciar gulp si no estaba (debe haber algo escrito para ver cambios)
-() Crear carpeta del partial, copiar su parte del html en el index, poner la ruta y borrar lo que no haga falta
-() Hacer commit, ej: "Split in html partials"
+(x) Hacer partials de html
+(x) Borrar los partials que no valen
+(x) Iniciar gulp si no estaba (debe haber algo escrito para ver cambios)
+(x) Crear carpeta del partial, copiar su parte del html en el index, poner la ruta y borrar lo que no haga falta
+(x) Hacer commit, ej: "Split in html partials"
 () Crear ficheros sass
 () Borrar los ficheros que hubiera y crear uno por cada partial y sections.scss
 () En sections.scss poner los enlaces con formato @import 'layouts/header'. Incluir \_variables y \_reset (@import 'core/reset')

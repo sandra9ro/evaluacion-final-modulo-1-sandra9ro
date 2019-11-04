@@ -1,8 +1,7 @@
-@import 'core/settings';
-@import 'core/links';
+@import "core/reset";
+@import "core/header";
+@import "core/article-section";
+@import "core/reasons-section";
+@import "core/footer";
 
-body {
-	background: url('../images/logo-adalab-80px.png') center center no-repeat $color-white;
-	margin: 0;
-	height: 100vh;
-}
+// @import "core/links";
