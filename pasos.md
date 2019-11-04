@@ -23,15 +23,20 @@
 
 (x) Descansar, leer enunciado
 (x) Crear rama de git ej: css-structure
+<<<<<<< HEAD
 () Hacer sass
 () En el scss de cada partial hacer los bordes para verlo mejor
+=======
+(x) Hacer sass
+(x) En el scss de cada partial hacer los bordes para verlo mejor
+>>>>>>> master
 (x) En \_reset.scss quitar margen y padding y poner box-sizing:border-box
 () Crear archivo \_index en pages
-() Plantearse si usar flex, grid...
-() Usando grid
-() Pensar cuantas filas y columnas son necesarias
+(x) Plantearse si usar flex, grid...
+(x) Usando grid
+(x) Pensar cuantas filas y columnas son necesarias
 () En index.scss establecer la estructura principal en versión móvil y luego la estructura en tablet
-() Ir a los partials de scss para hacer la estructura general
+(x) Ir a los partials de scss para hacer la estructura general
 () Contenedores interiores: plantearse el display (en este caso flex)
 ()Pongo la estructura de un elemento interno que no tenía partial en \_index.scss
 () Añadir textos para usar flex

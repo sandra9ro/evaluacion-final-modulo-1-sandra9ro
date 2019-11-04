@@ -1,8 +1,14 @@
 @import "core/reset";
 @import "core/variables";
+@import "core/mixins";
 @import "core/header";
 @import "core/article-section";
 @import "core/reasons-section";
 @import "core/footer";
 
 // @import "core/links";
+
+.main {
+  margin-left: 15px;
+  margin-right: 15px;
+}
