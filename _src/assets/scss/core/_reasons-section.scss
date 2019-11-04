@@ -1,3 +1,15 @@
 .reasons-section {
   border: tomato 3px solid;
+  display: grid;
+  grid-template-columns: 1;
+  text-align: center;
+  &__title {
+    border: teal solid 3px;
+  }
+}
+.reasons {
+  border: springgreen solid 3px;
+}
+.reasons-link {
+  border: plum 3px solid;
 }
