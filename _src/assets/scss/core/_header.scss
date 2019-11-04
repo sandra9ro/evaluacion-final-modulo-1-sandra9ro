@@ -1,3 +1,34 @@
 .header {
   border: brown 3px solid;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+
+  &__title {
+    border: springgreen 10px solid;
+    width: 50%;
+    text-align: center;
+  }
+  &__title--big-title {
+    border: rgb(2, 15, 189) solid 3px;
+  }
+  &__title--subtitle {
+    border: saddlebrown 3px solid;
+  }
+}
+
+.ico-menu {
+  border: black 3px solid;
+  position: fixed;
+  top: 0;
+  left: 0;
+  &__image {
+    border: red solid 3px;
+  }
+}
+
+.scroll-down-link {
+  border: black 3px solid;
 }
