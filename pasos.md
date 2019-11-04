@@ -16,8 +16,8 @@
 (x) Iniciar gulp si no estaba (debe haber algo escrito para ver cambios)
 (x) Crear carpeta del partial, copiar su parte del html en el index, poner la ruta y borrar lo que no haga falta
 (x) Hacer commit, ej: "Split in html partials"
-() Crear ficheros sass
-() Borrar los ficheros que hubiera y crear uno por cada partial y sections.scss
+(x) Crear ficheros sass
+(x) Borrar los ficheros que hubiera y crear uno por cada partial y sections.scss
 () En sections.scss poner los enlaces con formato @import 'layouts/header'. Incluir \_variables y \_reset (@import 'core/reset')
 () Commit
 
