@@ -18,14 +18,14 @@
 (x) Hacer commit, ej: "Split in html partials"
 (x) Crear ficheros sass
 (x) Borrar los ficheros que hubiera y crear uno por cada partial y sections.scss
-() En sections.scss poner los enlaces con formato @import 'layouts/header'. Incluir \_variables y \_reset (@import 'core/reset')
-() Commit
+(x) En sections.scss poner los enlaces con formato @import 'layouts/header'. Incluir \_variables y \_reset (@import 'core/reset')
+(x) Commit
 
-() Descansar, leer enunciado
-() Crear rama de git ej: css-structure
+(x) Descansar, leer enunciado
+(x) Crear rama de git ej: css-structure
 () Hacer sass
 () En el scss de cada partial hacer los bordes para verlo mejor
-() En \_reset.scss quitar margen y padding y poner box-sizing:border-box
+(x) En \_reset.scss quitar margen y padding y poner box-sizing:border-box
 () Crear archivo \_index en pages
 () Plantearse si usar flex, grid...
 () Usando grid

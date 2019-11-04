@@ -1,3 +1,23 @@
 .article-section {
   border: springgreen 3px solid;
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+.article {
+  border: green solid 3px;
+  &__title--subtitle {
+    border: hotpink 3px solid;
+  }
+  &__title--big-title {
+    border: turquoise 3px solid;
+  }
+  &__text {
+    border: steelblue 3px solid;
+  }
+}
+.article__link {
+  border: violet 3px solid;
+  width: 100px;
 }
