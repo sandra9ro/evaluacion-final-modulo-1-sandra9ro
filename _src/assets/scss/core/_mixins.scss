@@ -5,6 +5,12 @@
   text-transform: uppercase;
 }
 
+@mixin bigger_title_subtitle {
+  font-size: $text_font_size;
+  font-family: $text_font_family;
+  color: $light_color;
+}
+
 @mixin big_title {
   font-size: $big_font_size;
   font-family: $title_font_family;
