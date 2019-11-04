@@ -1,12 +1,37 @@
 .header {
   border: brown 3px solid;
-  height: 50vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
   background-image: url(../images/cover.jpg);
   background-size: cover;
+
+  .ico-menu {
+    // border: black 3px solid;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 44px;
+    height: 44px;
+    background: #0271bc;
+
+    &__image {
+      // border: red solid 3px;
+      // display: flex;
+      // flex-direction: column;
+      // align-self: center;
+      // justify-self: center;
+      width: 16px;
+      height: 14px;
+    }
+  }
+
   &__title {
     border: springgreen 10px solid;
     width: 50%;
@@ -18,18 +43,8 @@
   &__title--subtitle {
     border: saddlebrown 3px solid;
   }
-}
 
-.ico-menu {
-  border: black 3px solid;
-  position: fixed;
-  top: 0;
-  left: 0;
-  &__image {
-    border: red solid 3px;
+  .scroll-down-link {
+    border: black 3px solid;
   }
-}
-
-.scroll-down-link {
-  border: black 3px solid;
 }
