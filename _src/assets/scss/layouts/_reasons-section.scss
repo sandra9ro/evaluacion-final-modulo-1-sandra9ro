@@ -5,6 +5,7 @@
   grid-template-columns: 1;
   text-align: center;
   height: auto;
+  padding: 30px 15px 60px 15px;
   &__title {
     // border: teal solid 3px;
     @include big_title;

@@ -3,11 +3,11 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   background-image: url(../images/cover.jpg);
   background-size: cover;
-
+  padding-top: 18rem;
   .ico-menu {
     // border: black 3px solid;
     position: fixed;
@@ -17,20 +17,20 @@
     align-items: center;
     top: 0;
     left: 0;
-    width: 44px;
-    height: 44px;
+    width: 2.75rem;
+    height: 2.75rem;
     background: #0271bc;
 
     &__image {
       // border: red solid 3px;
-      width: 16px;
-      height: 14px;
+      width: 1rem;
+      height: 0.875rem;
     }
   }
 
   &__title {
     // border: springgreen 10px solid;
-    width: 290px;
+    width: 18.13rem;
     text-align: center;
   }
 
@@ -42,40 +42,46 @@
   &__title--subtitle {
     // border: saddlebrown 3px solid;
     @include bigger_title_subtitle;
+    margin: 1.25rem;
   }
 }
 .scroll-down-link {
   // border: black 3px solid;
-  width: 45px;
-  height: 45px;
-  border-radius: 22.5px;
+  width: 2.813rem;
+  height: 2.813rem;
+  border-radius: 1.375rem;
   background: #fff;
+  margin: 2.813rem 8.563rem 3.313rem 8.625rem;
+  display: inline-block;
 }
 .ico-scroll-down {
-  width: 20px;
-  height: 11.7px;
+  width: 1.25rem;
+  height: 0.6875rem;
+  position: relative;
+  top: 1.063rem;
+  left: 0.75rem;
 }
 
 @media all and (min-width: 768px) {
   .header__title {
-    width: 690px;
+    width: 43.13rem;
   }
   .header__title--big-title {
-    font-size: 80px;
+    font-size: 5rem;
   }
   .header__title--subtitle {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 }
 
 @media all and (min-width: 1200px) {
   .header__title {
-    width: 730px;
+    width: 45.63rem;
   }
   .header__title--big-title {
-    font-size: 100px;
+    font-size: 6.25rem;
   }
   .header__title--subtitle {
-    font-size: 24px;
+    font-size: 1.5rem;
   }
 }

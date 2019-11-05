@@ -2,6 +2,8 @@
   // border: springgreen 3px solid;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  padding: 1.875rem 0.9375rem 2.813rem 0.9375rem;
 }
 .article {
   // border: green solid 3px;
@@ -20,8 +22,8 @@
 }
 .article__link {
   border: $button_color 2px solid;
-  border-radius: 22.5px;
-  width: 76px;
+  border-radius: 1.375rem;
+  width: 4.75rem;
   font-size: $button_font_size;
   font-family: $text_font_family;
   color: $button_color;
@@ -36,33 +38,33 @@
 
 @media all and (min-width: 768px) {
   .article {
-    width: 730px;
+    width: 45.63rem;
   }
   .article__title--big-title {
-    font-size: 26px;
+    font-size: 1.625rem;
   }
   .article__text {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   .article__link {
-    width: 91px;
-    font-size: 20px;
+    width: 5.688rem;
+    font-size: 1.25rem;
   }
 }
 
 @media all and (min-width: 1200px) {
   .article__title--big-title {
-    font-size: 32px;
+    font-size: 2rem;
   }
   .article__title--subtitle {
-    font-size: 16px;
+    font-size: 1rem;
   }
   .article__text {
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   .article__link {
-    width: 160px;
-    height: 45px;
-    font-size: 20px;
+    width: 10rem;
+    height: 2.813rem;
+    font-size: 1.25rem;
   }
 }
