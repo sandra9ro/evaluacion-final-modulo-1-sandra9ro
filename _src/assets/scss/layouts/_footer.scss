@@ -57,10 +57,20 @@
 @media all and (min-width: 768px) {
   .footer {
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    align-items: flex-start;
   }
+  .arrow {
+    top: -3.8rem;
+    left: 23%;
+  }
+
   .copyright {
     order: -1;
+  }
+}
+@media all and (min-width: 1200px) {
+  .footer {
+    justify-content: space-evenly;
   }
 }

@@ -9,6 +9,19 @@
 // @import "core/links";
 
 .main {
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: $mobile_margin;
+  margin-right: $mobile_margin;
+}
+@media all and (min-width: width 768px) {
+  .main {
+    margin-left: $tablet_margin;
+    margin-right: $tablet_margin;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .main {
+    margin-left: $desktop_margin;
+    margin-right: $desktop_margin;
+  }
 }
