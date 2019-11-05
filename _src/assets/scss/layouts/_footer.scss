@@ -5,31 +5,34 @@
   align-items: center;
   background: #304268;
   @include footer_text;
+  padding: 2.5rem 0.9375rem 2.813rem 0.9375rem;
 }
 .arrow {
   // border: tomato 3px solid;
-  width: 45px;
-  height: 45px;
+  width: 2.813rem;
+  height: 2.813rem;
   border-radius: 50%;
   background: #fff;
   position: relative;
-  top: -20px;
+  top: -3.875rem;
   &__link {
     display: flex;
     flex-direction: column;
-    justify-self: center;
+    // justify-self: center;
     align-self: center;
     position: relative;
-    top: 7px;
+    top: 0.625rem;
   }
 }
 .nav-pages,
 .nav-social {
   // border: greenyellow 3px solid;
-  width: 200px;
+  width: 12.5rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
+  right: 1.188rem;
 }
 .pages-menu {
   // border: blueviolet 3px solid;

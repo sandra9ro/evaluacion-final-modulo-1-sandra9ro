@@ -5,7 +5,7 @@
   grid-template-columns: 1;
   text-align: center;
   height: auto;
-  padding: 30px 15px 60px 15px;
+  padding: 1.875rem 0.9375rem 3.75rem 0.9375rem;
   &__title {
     // border: teal solid 3px;
     @include big_title;
@@ -13,8 +13,8 @@
 }
 .reasons {
   // border: springgreen solid 3px;
-  margin-left: 55px;
-  margin-right: 55px;
+  margin-left: 3.438rem;
+  margin-right: 3.438rem;
   @include reasons_text;
   &__title {
     font-weight: bold;
@@ -22,16 +22,16 @@
 }
 .reasons-link {
   // border: plum 3px solid;
-  width: 184px;
-  height: 45px;
-  border-radius: 22.5px;
+  width: 11.5rem;
+  height: 2.813rem;
+  border-radius: 1.375rem;
   justify-self: center;
   text-align: center;
   text-decoration: none;
   background: $button_color;
   color: $light_color;
-  padding-top: 13px;
-  transition: color ease 3s;
+  padding-top: 0.9125rem;
+  transition: color ease 1s;
 
   &:hover {
     color: rgb(29, 22, 1);
