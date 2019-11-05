@@ -42,16 +42,16 @@
   list-style: none;
 }
 
-  .copyright {
-    text-align: center;
-    font-size: $smaller_font_size;
-    text-transform: lowercase;
-  }
-
-  .heart {
-    color: $button_color;
-  }
+.copyright {
+  text-align: center;
+  font-size: $smaller_font_size;
+  text-transform: lowercase;
 }
+
+.heart {
+  color: $button_color;
+}
+
 .link {
   text-decoration: none;
   color: #fff;
