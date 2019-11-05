@@ -1,15 +1,56 @@
 .reasons-section {
-  border: tomato 3px solid;
+  // border: tomato 3px solid;
+  background: #eff9ff;
   display: grid;
   grid-template-columns: 1;
   text-align: center;
+  height: auto;
   &__title {
-    border: teal solid 3px;
+    // border: teal solid 3px;
+    @include big_title;
   }
 }
 .reasons {
-  border: springgreen solid 3px;
+  // border: springgreen solid 3px;
+  margin-left: 55px;
+  margin-right: 55px;
+  @include reasons_text;
+  &__title {
+    font-weight: bold;
+  }
 }
 .reasons-link {
-  border: plum 3px solid;
+  // border: plum 3px solid;
+  width: 184px;
+  height: 45px;
+  border-radius: 22.5px;
+  justify-self: center;
+  text-align: center;
+  text-decoration: none;
+  background: $button_color;
+  color: $light_color;
+  padding-top: 13px;
+  transition: color ease 3s;
+
+  &:hover {
+    color: rgb(29, 22, 1);
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+}
+
+@media all and (min-width: 678px) {
+  .reasons-section {
+    grid-template-columns: 3;
+    grid-template-rows: 3;
+    &__title {
+      grid-column: span 3;
+    }
+  }
+  .reasons {
+    grid-column: span 1;
+  }
+  .reasons-link {
+    grid-column: span 3;
+  }
 }
