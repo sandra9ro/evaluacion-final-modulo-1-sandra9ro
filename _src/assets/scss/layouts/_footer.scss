@@ -1,5 +1,4 @@
 .footer {
-  // border: teal 3px solid;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,7 +7,6 @@
   padding: 2.5rem 0.9375rem 2.813rem 0.9375rem;
 }
 .arrow {
-  // border: tomato 3px solid;
   width: 2.813rem;
   height: 2.813rem;
   border-radius: 50%;
@@ -18,7 +16,6 @@
   &__link {
     display: flex;
     flex-direction: column;
-    // justify-self: center;
     align-self: center;
     position: relative;
     top: 0.625rem;
@@ -26,7 +23,6 @@
 }
 .nav-pages,
 .nav-social {
-  // border: greenyellow 3px solid;
   width: 12.5rem;
   display: flex;
   flex-direction: column;
@@ -35,7 +31,6 @@
   right: 1.188rem;
 }
 .pages-menu {
-  // border: blueviolet 3px solid;
   text-align: center;
   &__item {
     text-decoration: none;
@@ -43,15 +38,16 @@
   }
 }
 .social {
-  // border: royalblue 3px solid;
   text-align: center;
   list-style: none;
 }
 .copyright {
-  // border: black 3px solid;
   text-align: center;
   font-size: $smaller_font_size;
   text-transform: lowercase;
+}
+.heart {
+  color: $button_color;
 }
 .link {
   text-decoration: none;
