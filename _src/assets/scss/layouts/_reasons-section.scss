@@ -19,16 +19,17 @@
 }
 .reasons-link {
   width: 11.5rem;
-  height: 2.813rem;
+  // height: 2.813rem;
   border-radius: 1.375rem;
   justify-self: center;
   text-align: center;
   text-decoration: none;
   background: $button_color;
   color: $light_color;
-  padding-top: 0.9125rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
   transition: color ease 1s;
-
+  font-size: 1.25rem;
   &:hover {
     color: rgb(29, 22, 1);
     text-transform: uppercase;

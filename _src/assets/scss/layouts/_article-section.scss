@@ -19,13 +19,14 @@
   border: $button_color 2px solid;
   border-radius: 1.375rem;
   width: 4.75rem;
-  height: 2.813rem;
   align-self: flex-start;
   font-size: $button_font_size;
   font-family: $text_font_family;
   color: $button_color;
   text-decoration: none;
   text-align: center;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
   transition: background-color ease 0.8s, color ease 0.8s;
   &:hover {
     background-color: $button_color;
