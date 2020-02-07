@@ -19,21 +19,36 @@
 }
 .reasons-link {
   width: 11.5rem;
-  height: 2.813rem;
+  height: 3.7255rem;
   border-radius: 1.375rem;
   justify-self: center;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
   text-decoration: none;
+  font-size: larger;
   background: $button_color;
   color: $light_color;
-  padding-top: 0.9125rem;
   transition: color ease 1s;
+  display: flex;
 
   &:hover {
-    color: rgb(29, 22, 1);
     text-transform: uppercase;
     font-weight: bold;
+    
+    
   }
+}
+
+.button{
+  width: 11.5rem;
+  height: 2.813rem;
+  border-radius: 1.1rem;
+  box-shadow: none;
+  outline: none;
+  shape-outside: none;
+  background: $button_color;
+  color: $light_color;
+  cursor: pointer;
 }
 
 @media all and (min-width: 678px) {
