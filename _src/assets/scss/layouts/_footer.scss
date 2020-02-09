@@ -52,6 +52,7 @@
   text-align: center;
   font-size: $smaller_font_size;
   text-transform: lowercase;
+  padding-left: 0.6rem;
 }
 
 .heart {
@@ -73,7 +74,10 @@
     top: -3.8rem;
   }
   .nav-pages{
-    padding-left: 6rem;
+  // .nav-pages,
+  // .nav-social {
+
+    padding-left: 6.28rem;
   }
 
   .copyright {
